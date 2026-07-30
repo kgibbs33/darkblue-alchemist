@@ -1,1 +1,1 @@
-# The Alchemist's Path (Dark)
+# Dark Blue Alchemist

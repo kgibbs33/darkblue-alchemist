@@ -515,10 +515,10 @@ img{max-width:100%;}
   </a>
   <div class="nav-links">
     <a href="index.html">Home</a>
-    <a href="/levels" class="active">The 7 Levels</a>
-    <a href="/assessment">Assessment</a>
-    <a href="/book">Book</a>
-    <a href="/about">About</a>
+    <a href="darkbluealchemist_levels.html" class="active">The 7 Levels</a>
+    <a href="darkbluealchemist_assessment.html">Assessment</a>
+    <a href="darkbluealchemist_book.html">Book</a>
+    <a href="darkbluealchemist_about.html">About</a>
     <a href="/#tinGate" class="nav-cta">Begin Journey</a>
   </div>
   <div class="hamburger" onclick="toggleMenu()" aria-label="Menu">
@@ -527,10 +527,10 @@ img{max-width:100%;}
 </nav>
 <div class="mobile-menu" id="mobileMenu">
   <a href="index.html">Home</a>
-  <a href="/levels">The 7 Levels</a>
-  <a href="/assessment">Assessment</a>
-  <a href="/book">Book</a>
-  <a href="/about">About</a>
+  <a href="darkbluealchemist_levels.html">The 7 Levels</a>
+  <a href="darkbluealchemist_assessment.html">Assessment</a>
+  <a href="darkbluealchemist_book.html">Book</a>
+  <a href="darkbluealchemist_about.html">About</a>
   <a href="/#tinGate" class="nav-cta" style="text-align:center;margin-top:.5rem;">Begin Journey</a>
 </div>
 <!-- ════════════════════════════════════════
@@ -571,10 +571,10 @@ img{max-width:100%;}
     <div class="footer-bottom" style="flex-direction:column;gap:1.25rem;text-align:center;">
       <div style="display:flex;gap:2rem;flex-wrap:wrap;justify-content:center;">
         <a href="index.html" style="font-family:var(--font-body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">Home</a>
-        <a href="/levels" style="font-family:var(--font-body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">The 7 Levels</a>
-        <a href="/assessment" style="font-family:var(--font-body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">Assessment</a>
-        <a href="/book" style="font-family:var(--font-body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">Book</a>
-        <a href="/about" style="font-family:var(--font-body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">About</a>
+        <a href="darkbluealchemist_levels.html" style="font-family:var(--font-body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">The 7 Levels</a>
+        <a href="darkbluealchemist_assessment.html" style="font-family:var(--font-body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">Assessment</a>
+        <a href="darkbluealchemist_book.html" style="font-family:var(--font-body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">Book</a>
+        <a href="darkbluealchemist_about.html" style="font-family:var(--font-body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);">About</a>
       </div>
       <p class="footer-copy">© 2025 <span style="color:#C8960A!important;">The Alchemist's Path</span> · Andrew Allen Porteous</p>
     </div>
@@ -620,7 +620,7 @@ function axRenderContent(){
     '<div class="ax-sec-label">The Teaching</div>'+
     '<div class="ax-teaching">'+s.teaching.replace(/\n\n/g,'<br><br>')+'</div>'+
     '<hr class="ax-divider">'+
-    '<div style="text-align:center;margin-top:10px;"><a class="ax-begin-btn" href="/assessment?stage='+s.id+'" style="text-decoration:none;">Begin Journey →</a></div>';
+    '<div style="text-align:center;margin-top:10px;"><a class="ax-begin-btn" href="darkbluealchemist_assessment.html?stage='+s.id+'" style="text-decoration:none;">Begin Journey →</a></div>';
 }
 function axShowPopup(id){
   document.getElementById(id).classList.add('show');
@@ -1006,7 +1006,7 @@ function renderCards() {
           <span id="checkCount-${lvl.id}">${count}</span>/10 statements checked
           ${isMatch ? `<span style="color:${lvl.color};margin-left:.5rem;">— Your Level ✦</span>` : ''}
         </div>
-        <a href="/assessment" class="enroll-btn" style="background:linear-gradient(135deg,${lvl.color},rgba(${lvl.colorRgb},.7));color:#0A0A0F;">
+        <a href="darkbluealchemist_assessment.html" class="enroll-btn" style="background:linear-gradient(135deg,${lvl.color},rgba(${lvl.colorRgb},.7));color:#0A0A0F;">
           Enroll in ${lvl.metal} Level
         </a>
       </div>`;
